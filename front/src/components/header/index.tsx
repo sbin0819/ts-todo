@@ -7,21 +7,21 @@ const Container = styled.div`
   margin: auto auto;
   height: 40px;
   align-items: center;
+  justify-content: space-around;
   padding-left: 20px;
-  background: #999;
-  div {
+  border-bottom: 1px solid rgb(221, 222, 221);
+  /* div {
     flex: 1 1 30%;
-  }
+  } */
 `;
 
 const Header = () => {
   return (
     <Container>
-      <div>1</div>
-      <div>1</div>
-      <div>1</div>
-      <div>1</div>
-      <div>1</div>
+      <div>종료</div>
+      <div>이미지 추가</div>
+      <div>삭제</div>
+      <div>서치바</div>
     </Container>
   );
 };

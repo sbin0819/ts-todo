@@ -8,11 +8,11 @@ import Todo from '../components/todo';
 
 const Outer = styled.div`
   width: 80vw;
-  margin: auto auto;
+  margin: 30px auto;
+  border: 1px solid rgb(221, 222, 221);
 `;
 
 const Body = styled.div`
-  background: rgb(224, 223, 224);
   height: 80vh;
   display: flex;
 `;
