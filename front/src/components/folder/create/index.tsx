@@ -3,11 +3,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledButton = styled.div`
-  margin-bottom: 10px;
   cursor: pointer;
   :hover {
     background: pink;
   }
+  margin: 5px;
 `;
 
 const Create = () => {

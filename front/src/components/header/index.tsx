@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <Container>
       <div>종료</div>
-      <div>이미지 추가</div>
+      <div>글쓰기</div>
       <div>삭제</div>
       <div>서치바</div>
     </Container>
